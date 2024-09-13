@@ -14,5 +14,5 @@ lazy val core = project.in(file("core"))
 
     scalaVersion := scala3Version,
 
-    libraryDependencies += "org.scalameta" %% "munit" % "1.0.1" % Test
+    libraryDependencies += "org.scalameta" %% "munit" % "1.0.2" % Test
   )
